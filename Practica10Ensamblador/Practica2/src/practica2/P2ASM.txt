@@ -1,0 +1,24 @@
+;comentario numero 1 =TALLER de Progsis=
+gaby	 aDCA		%00001111
+erf	  equ		$ffFF
+uno ADCB		@4732
+ SWI		
+dfg		DS.b	   %0011000011111100
+;comentario numero 2 ¡Programacion!
+;comentario numero 3
+uno	FCC	    "Taller de Programacion de Sistemas"
+tres 	    sWi
+gh      adc.a     
+hj-     ldaa        lkm_jk%s
+	gabriela1     SWI      
+gaby    asdfghj   
+           %pppp
+ jkh                 kllmkm1   
+        ADCA
+        ORG  $AB
+ET1     SWI        1,X
+        BRA
+               LDAA
+                     jdkndd
+                     ORG
+        End

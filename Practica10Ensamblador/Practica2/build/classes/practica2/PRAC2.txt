@@ -1,0 +1,8 @@
+abc_xyz_123	abc
+$xy$z     	xyz
+ab$x	abc
+xyz
+	abcxyz	  36
+	$xy
+	a.b.x
+	AB#

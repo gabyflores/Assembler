@@ -1,0 +1,47 @@
+     	ORG  $AB
+ET1     SWI	1,X
+      ADCA   #$16
+      BRA
+      LDAA   #@11
+      LDAA   #%101
+      ADCA   #123
+      ADCA   #$FFF
+      ADCA   #ff%01
+      ADCB   #
+      ldaa   #$fgh01
+       adcb  #$123f
+      ldaa   #%12 34
+      adca   #12gh
+      adca   #%12
+      adca   #@19
+      ldaa    %
+      ldaa    %112
+      adca    $123f
+      adca    %0110
+      adca    @017
+      ldaa    254
+      ldaa    3456
+      ldaa    A_1
+      ldaa    100,X
+      ldaa    255,y
+      ldaa    23,pc
+      BCS     s_2
+      bcs     .b2
+      adca    _123
+      ldaa    ,x
+      ldaa    -5,PC
+      ldaa    --8,x
+      ldaa    5%,y%
+      ldaa    -5,-x
+      ldaa     8,y
+      ldaa    300,yx
+      ldaa    -300,x
+      ldaa     65536,y
+      ldaa    [2000,x]
+      ldaa    [d,x]
+      ldaa    [-d,x]
+      ldaa    [d,-x]
+      ldaa    [-8,y]
+      ldaa    [-A,x]
+      ldaa    [.8,y]
+    END

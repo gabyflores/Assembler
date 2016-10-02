@@ -1,0 +1,3 @@
+Compilar el proyecto e introducir el nombre del archivo a analizar con la terminacion .txt 
+por ejemplo P4E5.txt, si no hay errores en las instrucciones se generara un archivo 
+objeto con la informacion y datos generados.

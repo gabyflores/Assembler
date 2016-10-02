@@ -1,0 +1,4 @@
+          ORG     1125
+          sts     [125,pc]
+EX2           STS    [D,SP]
+           END

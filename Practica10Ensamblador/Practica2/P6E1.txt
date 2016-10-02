@@ -1,0 +1,21 @@
+    ORG   10
+    LDAA  -1,X
+    ORAA   -7,X
+    LDAA    5,pc
+    LDAA     ,sp
+    Ldaa    -32,pc
+    ldaa     20,x
+     ldaa    -256,Y
+     ADCA     2049,Y
+     SUBD     1030,SP
+     STX      2,+SP
+     STAA      1,-SP
+     stx        2,sp+
+     staa       1,sp-
+     ldaa       b,x
+     ldaa       D,X
+     ldaa        a,x
+     adca        [D,X]
+     ldaa         [10,x]
+     ldaa         [31483,X]
+     end
